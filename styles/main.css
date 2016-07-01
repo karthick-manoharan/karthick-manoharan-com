@@ -1,0 +1,81 @@
+body,p,a{
+	margin: 0;
+	padding:0;
+}
+ul{
+	list-style: none;
+}
+.container{
+	width:100vw;
+	height:100vh;
+}
+.intro{
+	font-family: 'Bree Serif';
+	color:#000;
+	font-size:27px;
+	margin:10vh auto 30px;
+	width:60vw;
+	height:20vh;
+	text-align: center;
+}
+.tamil{
+	font-family: 'Hind Madurai';
+}
+.search{
+	color:#ccc;
+	font-size: 15px;
+	margin:0 auto 50px;
+	width:600px;
+	height: 100px;
+	font-family: 'Open Sans';
+	text-align: center;
+}
+.search input[type="text"]{
+	font-family: 'Open Sans';	
+	margin: 19px 22px 0 20px;
+	border: 1px solid #e7e7e7;
+	border-radius: 30px;
+	width: 300px;
+	height: 40px;
+	outline: none;
+	font-size: 14px;
+	color: #ccc;
+	padding: 8px;
+	box-sizing: border-box;
+	text-indent: 10px;
+	letter-spacing: 0.2pt;
+}
+.stuffs,.stuffs ul{
+	width: auto;
+	height: auto;
+	display: flex;
+	margin: 0 auto;
+}
+.stuffs li{
+	color:#1f9677;
+	font-family: 'Bree Serif';
+	font-size:13px;
+	text-transform: uppercase;
+	flex-flow: row nowrap;
+	width:auto;
+	height:auto;
+	border-bottom: 2px solid #1f9677;
+	padding: 0 0 5px 0;
+	position: relative;
+}.stuffs li a:link,a:visited,a:focus,a:hover,a:active{
+	color:#1f9677;
+	text-decoration: none;
+	outline: none;
+}
+a[title]:hover::before{
+	content: attr(title);
+	background: #000;
+	border-radius: 5px;
+	color: #fff;
+	position: absolute;
+	padding: 4px 8px;
+	top: -35px;
+	width: 140px;
+	text-align: center;
+	left: -20px;
+}
